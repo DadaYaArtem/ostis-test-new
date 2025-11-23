@@ -1,12 +1,12 @@
-concept_public_transport_type
+concept_critical_route
 <- sc_node_class;
 <- concept_class;
 => nrel_main_idtf:
-    [вид общественного транспорта]
+    [Критический маршрут]
     (*
         <- lang_ru;;
     *);
-    [public transport type]
+    [critical route]
     (*
         <- lang_en;;
     *);

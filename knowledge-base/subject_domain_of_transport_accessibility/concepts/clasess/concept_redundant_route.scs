@@ -1,12 +1,12 @@
-concept_public_transport_type
+concept_redundant_route
 <- sc_node_class;
 <- concept_class;
 => nrel_main_idtf:
-    [вид общественного транспорта]
+    [Избыточный маршрут]
     (*
         <- lang_ru;;
     *);
-    [public transport type]
+    [redundant route]
     (*
         <- lang_en;;
     *);

@@ -6,6 +6,6 @@ nrel_connects_districts
         <- lang_ru;;
     *);
 => nrel_first_domain:
-    concept_human;
+    concept_public_transport_route;
 => nrel_second_domain:
-    lang_ru;;
+    sc_node_tuple;;

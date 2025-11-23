@@ -11,4 +11,4 @@ concept_city_set_of_administrative_units
         <- lang_en;;
     *);
 => nrel_inclusion:
-    concept_city_set_of_administrative_units;
+    concept_district;
