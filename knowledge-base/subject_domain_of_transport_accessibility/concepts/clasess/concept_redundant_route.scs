@@ -10,5 +10,5 @@ concept_redundant_route
     (*
         <- lang_en;;
     *);
-<=nrel_inclusion:
+<= nrel_inclusion:
     concept_public_transport_route;
