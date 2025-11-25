@@ -1,14 +1,14 @@
-concept_redundant_route
+action_build_graph
 <- sc_node_class;
 <- concept_class;
 => nrel_main_idtf:
-    [Избыточный маршрут]
-    (*
+    [действие построения графа]
+    (* 
         <- lang_ru;;
     *);
-    [redundant route]
+    [action to build graph]
     (*
         <- lang_en;;
     *);
 <= nrel_inclusion:
-    concept_public_transport_route;
+    concept_route_action;;
