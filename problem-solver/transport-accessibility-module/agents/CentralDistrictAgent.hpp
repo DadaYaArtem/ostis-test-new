@@ -6,15 +6,14 @@
 
 #pragma once
 
-#include <sc-memory/sc_memory.hpp>
+#include <sc-memory/sc_agent.hpp>
 
-namespace utils
-{
-class NumberUtils
+class CentralDistrictAgent : public ScActionInitiatedAgent
 {
 public:
-  static bool IsPositiveInteger(std::string const & str);
+  CentralDistrictAgent();
 
-  static ScAddr ResolveNumber(ScMemoryContext & context, unsigned value);
+  ScAddr GetActionClass() const override;
+
+  ScResult DoProgram(ScAction & action) override;
 };
-}  // namespace utils
