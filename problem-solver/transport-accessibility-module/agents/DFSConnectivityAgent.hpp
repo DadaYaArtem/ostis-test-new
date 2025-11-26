@@ -8,10 +8,10 @@
 
 #include <sc-memory/sc_agent.hpp>
 
-class IsomorphicSearchAgent : public ScActionInitiatedAgent
+class DFSConnectivity : public ScActionInitiatedAgent
 {
 public:
-  IsomorphicSearchAgent();
+  DFSConnectivity();
 
   ScAddr GetActionClass() const override;
 

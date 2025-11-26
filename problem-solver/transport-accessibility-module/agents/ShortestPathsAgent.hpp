@@ -8,14 +8,10 @@
 
 #include <sc-memory/sc_agent.hpp>
 
-#include "data-structures/ConnectorTemplateInfo.hpp"
-#include "data-structures/WeightTemplateInfo.hpp"
-#include "data-structures/PathInfo.hpp"
-
-class PathSearchAgent : public ScActionInitiatedAgent
+class ShortestPathsAgent : public ScActionInitiatedAgent
 {
 public:
-  PathSearchAgent();
+  ShortestPathsAgent();
 
   ScAddr GetActionClass() const override;
 

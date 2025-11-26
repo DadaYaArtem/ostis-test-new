@@ -8,10 +8,10 @@
 
 #include <sc-memory/sc_agent.hpp>
 
-class SubdividingSearchAgent : public ScActionInitiatedAgent
+class CentralDistrictAgent : public ScActionInitiatedAgent
 {
 public:
-  SubdividingSearchAgent();
+  CentralDistrictAgent();
 
   ScAddr GetActionClass() const override;
 
